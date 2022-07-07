@@ -1,0 +1,79 @@
+name: takeSourcesAndCreateStructure
+
+on:
+  workflow_dispatch:
+    inputs:
+      repositoryName:
+        description: 'Name of the repository from where to get latest released assets'     
+        required: True
+        default: ''
+        type: string
+      releaseFile:
+        description: 'Name and extension of the file that contains the release assets'     
+        required: True
+        default: ''
+        type: string
+      releaseType:
+        description: 'main or development'     
+        required: False
+        default: 'development'
+        type: string
+      releaseTag:
+        description: 'tag of the release to add to the commit message'     
+        required: False
+        default: 'latestDevelopmentBuild'
+        type: string
+
+jobs:
+  runner:
+    name: Get Assets, create folder structure and commit
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout submodules
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.inputs.releaseType }}
+          fetch-depth: 1
+          submodules: "recursive"
+          token: ${{ secrets.PAT_TOKEN }}
+      - run: git submodule update --init --recursive --remote
+      
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+
+      - name: Install python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f iisScriptsLib/requirements.txt ]; then pip install -r iisScriptsLib/requirements.txt; fi
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          
+      - name: Download Release
+        run: python iisScriptsLib/downloadAssetsFromGithub.py releaseTag=${{ github.event.inputs.releaseTag }} repository=${{ github.event.inputs.repositoryName }} token=${{ secrets.PAT_TOKEN }} files="${{ github.event.inputs.releaseFile }}|interactiveSurveysFiles.zip" outputFolder=downloadedRelease
+
+      - name: Move downloaded assets to folder structure
+        run: python moveAssetsToFolderStructure.py repository=${{ github.event.inputs.repositoryName }} zipFile=${{ github.event.inputs.releaseFile }} inputFolder=downloadedRelease
+      - name: clean the workdir before committing
+        shell: pwsh
+        run: |
+          Remove-Item 'downloadedRelea*' -Recurse -Force
+          ls
+          
+      - run: |
+          git config user.name ITCompetence
+          git config user.email ITCompetence@ipsos.com
+          set +e
+          git add .
+          git commit -m "${{ github.event.inputs.releaseTag }} from ${{ github.event.inputs.repositoryName }}"
+          set -e
+          git push
+          
+      - name: Upload output entire work dir if previews jobs failed (check artifacts)
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ github.event.repository.name }}-workDir
+          path: ${{ github.workspace }}
+          retention-days: 3
+          if-no-files-found: warn

@@ -1,0 +1,3 @@
+[submodule "iisScriptsLib"]
+	path = iisScriptsLib
+	url = ../../Ipsos-ITCompetence/iisScriptsLib.git
