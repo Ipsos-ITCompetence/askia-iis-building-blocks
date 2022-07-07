@@ -1,0 +1,44 @@
+{
+    "Unsubscribe": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\Unsubscribe_logfile.txt",
+                "modulename": "Unsubscribe",
+                "questionshortcut": "Presurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\Unsubscribe.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_Unsubscribe_logfile.txt",
+                "modulename": "Unsubscribe",
+                "questionshortcut": "Unsubscribe",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\Unsubscribe.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Survey routing and status logic",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.5",
+        "dependencies": [
+            "StatusSettings"
+        ],
+        "hidden": false,
+        "merge order": 24,
+        "qex name": "Unsubscribe"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "LengthOfInterview": {
+        "Askia Add parameters": [
+            {
+                "append": "beforecontent",
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\LengthOfInterview_logfile.txt",
+                "modulename": "LengthOfInterview",
+                "questionshortcut": "Postsurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\LengthOfInterview.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_LengthOfInterview_logfile.txt",
+                "modulename": "LengthOfInterview",
+                "questionshortcut": "LengthOfInterview",
+                "replace": "beforecontent",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\LengthOfInterview.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Core Askia shell functionalities",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.7",
+        "dependencies": [],
+        "hidden": false,
+        "merge order": 27,
+        "qex name": "LengthOfInterview"
+    }
+}

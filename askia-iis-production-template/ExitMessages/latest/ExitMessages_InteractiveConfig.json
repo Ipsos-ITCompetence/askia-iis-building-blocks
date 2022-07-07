@@ -1,0 +1,10 @@
+{
+  "variables": [
+		{ 
+			"key": "nextHidden", 
+			"value": {
+				"en-GB": "false"
+			}
+		}
+	]
+}

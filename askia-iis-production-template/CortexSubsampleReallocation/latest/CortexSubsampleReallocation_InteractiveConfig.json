@@ -1,0 +1,10 @@
+{
+  "variables": [
+		{ 
+			"key": "surveyParameter", 
+			"value": {
+				"en-GB": "surveyParameterNamePlaceholder"
+			}
+		}
+	]
+}

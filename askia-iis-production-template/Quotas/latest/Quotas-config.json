@@ -1,0 +1,56 @@
+{
+    "Quotas": {
+        "Askia Add parameters": [
+            {
+                "before": true,
+                "insertsurvey": true,
+                "logfile": ".\\logs\\Quotas_logfile.txt",
+                "modulename": "Quotas",
+                "questionshortcut": "StatusSettings",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\Quotas.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_Quotas_logfile.txt",
+                "modulename": "Quotas",
+                "questionshortcut": "Quotas",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\Quotas.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Survey routing and status logic",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "AllocationFunctions.asx",
+                "Version": "1.0.3"
+            },
+            {
+                "Name": "GetQuotaStrings.asx",
+                "Version": "1.0.2"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "QuotaFunctions.asx",
+                "Version": "1.0.3"
+            }
+        ],
+        "Version": "1.0.9",
+        "dependencies": [
+            "StatusSettings"
+        ],
+        "hidden": false,
+        "merge order": 26,
+        "qex name": "Quotas"
+    }
+}

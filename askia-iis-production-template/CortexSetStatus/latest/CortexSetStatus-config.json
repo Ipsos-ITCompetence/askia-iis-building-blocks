@@ -1,0 +1,82 @@
+{
+    "CortexSetStatus": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\CortexSetStatus_logfile.txt",
+                "modulename": "CortexSetStatus",
+                "questionshortcut": "Postsurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\CortexSetStatus.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_CortexSetStatus_logfile.txt",
+                "modulename": "CortexSetStatus",
+                "questionshortcut": "CortexSetStatus",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\CortexSetStatus.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Cortex integration",
+        "Languages": [
+            "en-us",
+            "en-gb",
+            "fr-fr",
+            "ar-iq",
+            "en-ca",
+            "en-jm",
+            "en-tt",
+            "fr-ca",
+            "it-it",
+            "pt-br",
+            "es-ar",
+            "es-bo",
+            "es-cl",
+            "es-co",
+            "es-cr",
+            "es-do",
+            "es-ec",
+            "es-sv",
+            "es-gt",
+            "es-hn",
+            "es-mx",
+            "es-ni",
+            "es-pa",
+            "es-py",
+            "es-pe",
+            "es-pr",
+            "es-uy",
+            "es-ve",
+            "ta-in"
+        ],
+        "Resources": [
+            {
+                "Name": "CortexStatus.asx",
+                "Version": "1.0.3"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_General.adc",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.19",
+        "dependencies": [
+            "CortexSettings",
+            "LengthOfInterview",
+            "StatusSettings"
+        ],
+        "hidden": false,
+        "merge order": 28,
+        "qex name": "CortexSetStatus"
+    }
+}

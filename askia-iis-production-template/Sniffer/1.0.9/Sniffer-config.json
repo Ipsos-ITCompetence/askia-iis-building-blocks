@@ -1,0 +1,48 @@
+{
+    "Sniffer": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\Sniffer_logfile.txt",
+                "modulename": "Sniffer",
+                "questionshortcut": "Presurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\Sniffer.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_Sniffer_logfile.txt",
+                "modulename": "Sniffer",
+                "questionshortcut": "Sniffer",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\Sniffer.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Core Askia shell functionalities",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "Sniffer.asx",
+                "Version": "1.0.2"
+            }
+        ],
+        "Version": "1.0.9",
+        "dependencies": [
+            "CortexSettings"
+        ],
+        "hidden": false,
+        "merge order": 10,
+        "qex name": "Sniffer"
+    }
+}
