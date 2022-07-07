@@ -1,0 +1,45 @@
+{
+    "ipsos_media_module_S3": {
+        "Askia Add parameters": [
+            {
+                "configurationFile": ".\\_INTERACTIVE_SURVEYS\\ipsos_media_module_S3_InteractiveConfig.json",
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ipsos_media_module_S3_logfile.txt",
+                "modulename": "ipsos_media_module_S3",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_S3.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_ipsos_media_module_S3_logfile.txt",
+                "modulename": "ipsos_media_module_S3",
+                "questionshortcut": "ipsos_media_module_S3",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_S3.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_General.adc",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.2",
+        "dependencies": [
+            "StatusSettings"
+        ],
+        "hidden": false,
+        "merge order": 0,
+        "qex name": "ipsos_media_module_S3"
+    }
+}

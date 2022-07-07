@@ -1,0 +1,50 @@
+{
+    "ipsos_media_module_autocomplete": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ipsos_media_module_autocomplete_logfile.txt",
+                "modulename": "ipsos_media_module_autocomplete",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_autocomplete.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\ipsos_media_module_autocomplete_logfile.txt",
+                "modulename": "ipsos_media_module_autocomplete",
+                "questionshortcut": "ipsos_media_module_autocomplete",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_autocomplete.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Autocomplete",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Autocomplete.adc",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "iis_media_module_autocomplete.asx",
+                "Version": "1.0.0"
+            }
+        ],
+        "Version": "1.0.8",
+        "dependencies": [],
+        "hidden": false,
+        "merge order": 0,
+        "qex name": "ipsos_media_module_autocomplete"
+    }
+}

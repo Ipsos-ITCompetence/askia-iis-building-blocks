@@ -1,0 +1,95 @@
+{
+    "ipsos_media_module_soundcheck": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ipsos_media_module_soundcheck_logfile.txt",
+                "modulename": "ipsos_media_module_soundcheck",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_soundcheck.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_ipsos_media_module_soundcheck_logfile.txt",
+                "modulename": "ipsos_media_module_soundcheck",
+                "questionshortcut": "ipsos_media_module_soundcheck",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_soundcheck.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "SoundCheck",
+        "Languages": [
+            "en-gb",
+            "en-my",
+            "ar-sa",
+            "cs-cz",
+            "de-de",
+            "fr-fr",
+            "hu-hu",
+            "it-it",
+            "ja-jp",
+            "ko-kr",
+            "nl-nl",
+            "pl-pl",
+            "pt-br",
+            "ro-ro",
+            "ru-ru",
+            "sv-se",
+            "th-th",
+            "tr-tr",
+            "id-id",
+            "uk-ua",
+            "vi-vn",
+            "ms-my",
+            "zh-cn",
+            "de-ch",
+            "es-mx",
+            "fr-be",
+            "nl-be",
+            "pt-pt",
+            "zh-hk",
+            "de-at",
+            "en-au",
+            "No_CI_70",
+            "fr-ca",
+            "en-ca",
+            "fr-ch",
+            "zh-mo",
+            "en-za",
+            "en-cb",
+            "es-co",
+            "en-bz",
+            "es-pe",
+            "es-ar",
+            "es-ec",
+            "en-ph",
+            "es-cl",
+            "ar-ae",
+            "en-in",
+            "en-sg",
+            "es-hn",
+            "es-us"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_SoundCheck.adc",
+                "Version": "1.0.0"
+            }
+        ],
+        "Version": "1.0.4",
+        "dependencies": [],
+        "hidden": false,
+        "merge order": 0,
+        "qex name": "ipsos_media_module_soundcheck"
+    }
+}

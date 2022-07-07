@@ -1,0 +1,50 @@
+{
+    "ipsos_media_module_closeness": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ipsos_media_module_closeness_logfile.txt",
+                "modulename": "ipsos_media_module_closeness",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_closeness.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\ipsos_media_module_closeness_logfile.txt",
+                "modulename": "ipsos_media_module_closeness",
+                "questionshortcut": "ipsos_media_module_closeness",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_closeness.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Closeness",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_Slider.adc",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "ipsos_media_module_closeness.asx",
+                "Version": "1.0.0"
+            }
+        ],
+        "Version": "1.0.8",
+        "dependencies": [],
+        "hidden": false,
+        "merge order": 0,
+        "qex name": "ipsos_media_module_closeness"
+    }
+}

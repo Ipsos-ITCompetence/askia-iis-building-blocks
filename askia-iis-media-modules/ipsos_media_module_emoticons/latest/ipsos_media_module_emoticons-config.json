@@ -1,0 +1,73 @@
+{
+    "ipsos_media_module_emoticons": {
+        "Askia Add parameters": [
+            {
+                "configurationFile": ".\\_INTERACTIVE_SURVEYS\\ipsos_media_module_Emoticons_InteractiveConfig.json",
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ipsos_media_module_emoticons_logfile.txt",
+                "modulename": "ipsos_media_module_emoticons",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_emoticons.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_ipsos_media_module_emoticons_logfile.txt",
+                "modulename": "ipsos_media_module_emoticons",
+                "questionshortcut": "ipsos_media_module_emoticons",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_emoticons.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Emoticons",
+        "Languages": [
+            "en-gb",
+            "ja-jp",
+            "es-ar",
+            "es-cl",
+            "pl-pl",
+            "fr-fr",
+            "pt-br",
+            "ar-eg",
+            "ar-sa",
+            "ar-ae",
+            "es-es",
+            "it-it",
+            "ro-ro",
+            "ru-ru",
+            "en-us",
+            "zh-cn",
+            "zh-hk"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Emoticons.adc",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_General.adc",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "ipsos_media_module_emoticons.asx",
+                "Version": "1.0.2"
+            }
+        ],
+        "Version": "1.0.17",
+        "dependencies": [
+            "get_current_module"
+        ],
+        "hidden": false,
+        "merge order": 1,
+        "qex name": "ipsos_media_module_emoticons"
+    }
+}

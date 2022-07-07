@@ -1,0 +1,53 @@
+
+{
+  "variables": [
+		{
+			"key":"intro_ce",
+			"value": {
+				"en-GB": "introtexts_ce"
+			}
+		},	
+		{
+			"key":"q1_text",
+			"value": {
+				"en-GB": "q1_label_ce"
+			}
+		},	
+		{
+			"key":"q2_text",
+			"value": {
+				"en-GB": "q2_label_ce"
+			}
+		},	
+		{
+			"key":"q3_text",
+			"value": {
+				"en-GB": "q3_label_ce"
+			}
+		},	
+		{
+			"key":"q4_text",
+			"value": {
+				"en-GB": "q4_label_ce"
+			}
+		},	
+		{
+			"key":"use_watermark",
+			"value": {
+				"en-GB": "yes"
+			}
+		},
+		{
+			"key":"filter_ce2",
+			"value": {
+				"en-GB": "yes"
+			}
+		},
+		{
+			"key":"ask_ce4",
+			"value": {
+				"en-GB": "yes"
+			}
+		}
+	]
+}

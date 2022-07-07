@@ -1,0 +1,61 @@
+{
+    "ipsos_media_module_fc": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ipsos_media_module_fc_logfile.txt",
+                "modulename": "ipsos_media_module_fc",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_fc.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_ipsos_media_module_fc_logfile.txt",
+                "modulename": "ipsos_media_module_fc",
+                "questionshortcut": "ipsos_media_module_fc",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_fc.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "FacialCoding",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_FacialCoding.adc",
+                "Version": "1.0.6"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_General.adc",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_General_grid.adc",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "ipsos_media_module_fc.asx",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.5",
+        "dependencies": [
+            "Quotas",
+            "get_current_module"
+        ],
+        "hidden": false,
+        "merge order": 1,
+        "qex name": "ipsos_media_module_fc"
+    }
+}
