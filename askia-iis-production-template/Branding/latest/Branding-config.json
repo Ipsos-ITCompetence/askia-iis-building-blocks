@@ -1,0 +1,59 @@
+{
+    "Branding": {
+        "Askia Add parameters": [
+            {
+                "adpproperties": "headerLogo,footerLogo,links,copyright",
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\Branding_logfile.txt",
+                "modulename": "Branding",
+                "questionshortcut": "Presurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\Branding.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "adpproperties": "headerLogo,footerLogo,links,copyright",
+                "logfile": ".\\logs\\update_Branding_logfile.txt",
+                "modulename": "Branding",
+                "questionshortcut": "Branding",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\Branding.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Standard texts and branding",
+        "Languages": [
+            "en-gb",
+            "es-us"
+        ],
+        "Resources": [
+            {
+                "Name": "Branding.asx",
+                "Version": "1.0.4"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "footerlinks.json",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "headerlogo.json",
+                "Version": "1.0.0"
+            }
+        ],
+        "Version": "1.0.10",
+        "dependencies": [
+            "RespondentGeneralSettingsAndInfo"
+        ],
+        "hidden": false,
+        "merge order": 13,
+        "qex name": "Branding"
+    }
+}

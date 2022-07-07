@@ -1,0 +1,50 @@
+{
+    "CortexSubsampleReallocation": {
+        "Askia Add parameters": [
+            {
+                "configurationFile": ".\\_INTERACTIVE_SURVEYS\\CortexSubsampleReallocation_InteractiveConfig.json",
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\CortexSubsampleReallocation_logfile.txt",
+                "modulename": "CortexSubsampleReallocation",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\CortexSubsampleReallocation.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "configurationFile": ".\\_INTERACTIVE_SURVEYS\\CortexSubsampleReallocation_InteractiveConfig.json",
+                "logfile": ".\\logs\\update_CortexSubsampleReallocation_logfile.txt",
+                "modulename": "CortexSubsampleReallocation",
+                "questionshortcut": "CortexSubsampleReallocation",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\CortexSubsampleReallocation.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Cortex integration",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "subsampleFunctions.asx",
+                "Version": "1.0.0"
+            }
+        ],
+        "Version": "1.0.7",
+        "dependencies": [
+            "CortexSettings"
+        ],
+        "hidden": false,
+        "merge order": 34,
+        "qex name": "CortexSubsampleReallocation"
+    }
+}

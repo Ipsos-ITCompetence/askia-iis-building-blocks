@@ -1,0 +1,48 @@
+{
+    "IntroMessages": {
+        "Askia Add parameters": [
+            {
+                "before": true,
+                "insertsurvey": true,
+                "logfile": ".\\logs\\IntroMessages_logfile.txt",
+                "modulename": "IntroMessages",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\IntroMessages.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_IntroMessages_logfile.txt",
+                "modulename": "IntroMessages",
+                "questionshortcut": "IntroMessages",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\IntroMessages.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Standard texts and branding",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_General.adc",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.8",
+        "dependencies": [
+            "RespondentGeneralSettingsAndInfo"
+        ],
+        "hidden": false,
+        "merge order": 20,
+        "qex name": "IntroMessages"
+    }
+}

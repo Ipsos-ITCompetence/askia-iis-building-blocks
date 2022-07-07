@@ -1,0 +1,48 @@
+{
+    "StatusSettings": {
+        "Askia Add parameters": [
+            {
+                "append": "beforecontent",
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\StatusSettings_logfile.txt",
+                "modulename": "StatusSettings",
+                "questionshortcut": "Postsurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\StatusSettings.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_StatusSettings_logfile.txt",
+                "modulename": "StatusSettings",
+                "questionshortcut": "StatusSettings",
+                "replace": "beforecontent",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\StatusSettings.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Survey routing and status logic",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "screener.asx",
+                "Version": "1.0.0"
+            }
+        ],
+        "Version": "1.0.10",
+        "dependencies": [],
+        "hidden": false,
+        "merge order": 23,
+        "qex name": "StatusSettings"
+    }
+}

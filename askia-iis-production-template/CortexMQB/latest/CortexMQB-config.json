@@ -1,0 +1,45 @@
+{
+    "CortexMQB": {
+        "Askia Add parameters": [
+            {
+                "after": true,
+                "insertsurvey": true,
+                "logfile": ".\\logs\\CortexMQB_logfile.txt",
+                "modulename": "CortexMQB",
+                "questionshortcut": "Screeners",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\CortexMQB.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_CortexMQB_logfile.txt",
+                "modulename": "CortexMQB",
+                "questionshortcut": "CortexMQB",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\CortexMQB.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Cortex integration",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.8",
+        "dependencies": [
+            "CortexSettings",
+            "StatusSettings"
+        ],
+        "hidden": false,
+        "merge order": 25,
+        "qex name": "CortexMQB"
+    }
+}

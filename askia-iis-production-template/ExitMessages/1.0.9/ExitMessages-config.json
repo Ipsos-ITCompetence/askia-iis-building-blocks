@@ -1,0 +1,52 @@
+{
+    "ExitMessages": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ExitMessages_logfile.txt",
+                "modulename": "ExitMessages",
+                "questionshortcut": "Postsurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\ExitMessages.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_ExitMessages_logfile.txt",
+                "modulename": "ExitMessages",
+                "questionshortcut": "ExitMessages",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\ExitMessages.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Standard texts and branding",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "Exit_Texts.asx",
+                "Version": "1.0.2"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_General.adc",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.9",
+        "dependencies": [
+            "StatusSettings"
+        ],
+        "hidden": false,
+        "merge order": 32,
+        "qex name": "ExitMessages"
+    }
+}

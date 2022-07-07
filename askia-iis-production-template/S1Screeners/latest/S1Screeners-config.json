@@ -1,0 +1,46 @@
+{
+    "S1Screeners": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\S1Screeners_logfile.txt",
+                "modulename": "S1Screeners",
+                "questionshortcut": "Screeners",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\S1Screeners.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "keepquestions": true,
+                "logfile": ".\\logs\\update_S1Screeners_logfile.txt",
+                "modulename": "S1Screeners",
+                "questionshortcut": "S1Screeners",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\S1Screeners.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Standard Screeners",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.5",
+        "dependencies": [
+            "CortexSettings",
+            "SurveyGeneralSettingsAndInfo"
+        ],
+        "hidden": false,
+        "merge order": 18,
+        "qex name": "S1Screeners"
+    }
+}

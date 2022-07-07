@@ -1,0 +1,48 @@
+{
+    "DataGuards": {
+        "Askia Add parameters": [
+            {
+                "append": "beforecontent,aftercontent",
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\DataGuards_logfile.txt",
+                "modulename": "DataGuards",
+                "questionshortcut": "PlaceholderDG",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\DataGuards.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_DataGuards_logfile.txt",
+                "modulename": "DataGuards",
+                "questionshortcut": "DataGuards",
+                "replace": "beforecontent,aftercontent",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\DataGuards.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Quality modules",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "DataGuardsFunctions.asx",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.6",
+        "dependencies": [],
+        "hidden": false,
+        "merge order": 21,
+        "qex name": "DataGuards"
+    }
+}

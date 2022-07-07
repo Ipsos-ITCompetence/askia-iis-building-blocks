@@ -1,0 +1,50 @@
+{
+    "VersionCheck": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\VersionCheck_logfile.txt",
+                "modulename": "VersionCheck",
+                "questionshortcut": "IIS_Template",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\VersionCheck.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_VersionCheck_logfile.txt",
+                "modulename": "VersionCheck",
+                "questionshortcut": "VersionCheck",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\VersionCheck.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Core Askia shell functionalities",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "CheckVersion_Function.asx",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_General.adc",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.9",
+        "dependencies": [],
+        "hidden": false,
+        "merge order": 2,
+        "qex name": "VersionCheck"
+    }
+}

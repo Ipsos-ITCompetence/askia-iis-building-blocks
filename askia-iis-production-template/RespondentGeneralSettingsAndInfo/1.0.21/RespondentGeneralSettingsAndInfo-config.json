@@ -1,0 +1,66 @@
+{
+    "RespondentGeneralSettingsAndInfo": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\RespondentGeneralSettingsAndInfo_logfile.txt",
+                "modulename": "RespondentGeneralSettingsAndInfo",
+                "questionshortcut": "Presurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\RespondentGeneralSettingsAndInfo.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_RespondentGeneralSettingsAndInfo_logfile.txt",
+                "modulename": "RespondentGeneralSettingsAndInfo",
+                "questionshortcut": "RespondentGeneralSettingsAndInfo",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\RespondentGeneralSettingsAndInfo.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Core Askia shell functionalities",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "AnswerSeen.asx",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "SetLanguageByCultureInfo.asx",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "SetServer_function.asx",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "cultureinfo_map.json",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "parseJson.asx",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "sample.asx",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.21",
+        "dependencies": [],
+        "hidden": false,
+        "merge order": 3,
+        "qex name": "RespondentGeneralSettingsAndInfo"
+    }
+}

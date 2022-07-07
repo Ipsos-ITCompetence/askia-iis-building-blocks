@@ -1,0 +1,121 @@
+{
+    "SEM": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\SEM_logfile.txt",
+                "modulename": "SEM",
+                "questionshortcut": "Postsurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\SEM.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_SEM_logfile.txt",
+                "modulename": "SEM",
+                "questionshortcut": "SEM",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\SEM.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Quality modules",
+        "Languages": [
+            "en-gb",
+            "es-us",
+            "fr-ca",
+            "da-dk",
+            "de-ch",
+            "de-de",
+            "No_CI_70",
+            "fr-fr",
+            "fr-be",
+            "fr-ch",
+            "hu-hu",
+            "it-it",
+            "nl-be",
+            "nl-nl",
+            "nb-no",
+            "nn-no",
+            "pl-pl",
+            "pt-pt",
+            "fi-fi",
+            "ro-ro",
+            "ru-ru",
+            "sv-se",
+            "tr-tr",
+            "pt-br",
+            "es-pa",
+            "es-bo",
+            "es-cr",
+            "es-do",
+            "es-sv",
+            "es-ec",
+            "es-gt",
+            "es-hn",
+            "es-ni",
+            "es-cl",
+            "es-mx",
+            "es-co",
+            "es-pe",
+            "es-ar",
+            "es-pr",
+            "es-ve",
+            "es-uy",
+            "es-py",
+            "ar-sa",
+            "ar-lb",
+            "ar-eg",
+            "ar-iq",
+            "ar-jo",
+            "ar-kw",
+            "ar-ma",
+            "ar-qa",
+            "ar-ae",
+            "fr-mc",
+            "en-ie",
+            "en-ae",
+            "No_CI_15",
+            "hi-in",
+            "id-id",
+            "ja-jp",
+            "ko-kr",
+            "ms-my",
+            "th-th",
+            "vi-vn",
+            "zh-hk",
+            "zh-sg",
+            "zh-cn",
+            "zh-tw",
+            "zh-mo",
+            "en-zw",
+            "sw-ke",
+            "yo-ng",
+            "en-us",
+            "en-cb",
+            "en-jm"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_SurveyEngagementModule.adc",
+                "Version": "1.0.0"
+            }
+        ],
+        "Version": "1.0.7",
+        "dependencies": [
+            "CortexSettings",
+            "StatusSettings"
+        ],
+        "hidden": false,
+        "merge order": 31,
+        "qex name": "SEM"
+    }
+}

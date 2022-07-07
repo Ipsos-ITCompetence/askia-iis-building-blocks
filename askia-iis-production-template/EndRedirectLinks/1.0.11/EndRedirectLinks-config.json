@@ -1,0 +1,46 @@
+{
+    "EndRedirectLinks": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\EndRedirectLinks_logfile.txt",
+                "modulename": "EndRedirectLinks",
+                "questionshortcut": "Postsurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\EndRedirectLinks.qex",
+                "updatefinalpages": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_EndRedirectLinks_logfile.txt",
+                "modulename": "EndRedirectLinks",
+                "questionshortcut": "EndRedirectLinks",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules\\EndRedirectLinks.qex",
+                "updatefinalpages": true,
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Core Askia shell functionalities",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.11",
+        "dependencies": [
+            "RespondentGeneralSettingsAndInfo"
+        ],
+        "hidden": false,
+        "merge order": 33,
+        "qex name": "EndRedirectLinks"
+    }
+}
