@@ -1,0 +1,52 @@
+{
+    "ipsos_media_module_censydiamimages": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ipsos_media_module_censydiamimages_logfile.txt",
+                "modulename": "ipsos_media_module_censydiamimages",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_censydiamimages.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_ipsos_media_module_censydiamimages_logfile.txt",
+                "modulename": "ipsos_media_module_censydiamimages",
+                "questionshortcut": "ipsos_media_module_censydiamimages",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_censydiamimages.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Censydiamimages",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_General.adc",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_ImageGallery.adc",
+                "Version": "1.0.0"
+            }
+        ],
+        "Version": "1.0.6",
+        "dependencies": [
+            "get_current_module"
+        ],
+        "hidden": false,
+        "merge order": 1,
+        "qex name": "ipsos_media_module_censydiamimages"
+    }
+}

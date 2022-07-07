@@ -1,0 +1,52 @@
+{
+    "ipsos_media_module_chipgame": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ipsos_media_module_chipgame_logfile.txt",
+                "modulename": "ipsos_media_module_chipgame",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_chipgame.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_ipsos_media_module_chipgame_logfile.txt",
+                "modulename": "ipsos_media_module_chipgame",
+                "questionshortcut": "ipsos_media_module_chipgame",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_chipgame.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "ChipGame",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_ChipGame.adc",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "ipsos_media_module_chipgame.asx",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.7",
+        "dependencies": [
+            "get_current_module"
+        ],
+        "hidden": false,
+        "merge order": 0,
+        "qex name": "ipsos_media_module_chipgame"
+    }
+}

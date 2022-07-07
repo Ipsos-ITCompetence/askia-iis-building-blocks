@@ -1,0 +1,40 @@
+
+{
+  "variables": [
+		{
+			"key": "S3list",
+			"value": [
+				{
+					"entry_code": "1",
+					"caption" : {
+						"en-GB": "Asahi"
+					}
+				},
+				{
+					"entry_code": "2",
+					"caption" : {
+						"en-GB": "Corona"
+					}
+				}
+			]
+		},
+		{
+			"key":"other_stimulitype",
+			"value": {
+				"en-GB": "[OTHER Stimuli]"
+			}
+		},
+		{
+			"key":"other_action",
+			"value": {
+				"en-GB": "[OTHER] Action"
+			}
+		},
+		{
+			"key":"action_brand",
+			"value": {
+				"en-GB": "[XYZ]"
+			}
+		}
+	]
+}

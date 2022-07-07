@@ -1,0 +1,54 @@
+{
+    "ipsos_media_module_swipe": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ipsos_media_module_swipe_logfile.txt",
+                "modulename": "ipsos_media_module_swipe",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_swipe.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\ipsos_media_module_swipe_logfile.txt",
+                "modulename": "ipsos_media_module_swipe",
+                "questionshortcut": "ipsos_media_module_swipe",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_swipe.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "Swipe",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_General.adc",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_InformationReview.adc",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "ipsos_media_module_swipe.asx",
+                "Version": "1.0.0"
+            }
+        ],
+        "Version": "1.0.7",
+        "dependencies": [],
+        "hidden": false,
+        "merge order": 0,
+        "qex name": "ipsos_media_module_swipe"
+    }
+}

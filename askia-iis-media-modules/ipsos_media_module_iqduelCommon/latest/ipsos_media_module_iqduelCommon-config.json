@@ -1,0 +1,62 @@
+{
+    "ipsos_media_module_iqduelCommon": {
+        "Askia Add parameters": [
+            {
+                "duplicateresources": "ipsos_media_module_settings_iqduelCommon.json",
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ipsos_media_module_iqduelCommon_logfile.txt",
+                "modulename": "ipsos_media_module_iqduelCommon",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_iqduelCommon.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_ipsos_media_module_iqduelCommon_logfile.txt",
+                "modulename": "ipsos_media_module_iqduelCommon",
+                "questionshortcut": "ipsos_media_module_iqduelCommon",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_iqduelCommon.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_CategoricalButtons.adc",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_General.adc",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IQDuel.asx",
+                "Version": "1.0.2"
+            },
+            {
+                "Name": "ipsos_media_module_settings_iqduelCommon.json",
+                "Version": "1.0.0"
+            }
+        ],
+        "Version": "1.0.13",
+        "dependencies": [
+            "Quotas",
+            "get_current_module"
+        ],
+        "hidden": true,
+        "merge order": 1,
+        "qex name": "ipsos_media_module_iqduelCommon"
+    }
+}

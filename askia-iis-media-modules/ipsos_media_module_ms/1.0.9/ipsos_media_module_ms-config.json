@@ -1,0 +1,50 @@
+{
+    "ipsos_media_module_ms": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ipsos_media_module_ms_logfile.txt",
+                "modulename": "ipsos_media_module_ms",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_ms.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\update_ipsos_media_module_ms_logfile.txt",
+                "modulename": "ipsos_media_module_ms",
+                "questionshortcut": "ipsos_media_module_ms",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_ms.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_CategoricalClickImages.adc",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_General.adc",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.9",
+        "dependencies": [],
+        "hidden": false,
+        "merge order": 0,
+        "qex name": "ipsos_media_module_ms"
+    }
+}

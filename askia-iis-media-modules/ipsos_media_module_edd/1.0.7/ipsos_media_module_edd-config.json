@@ -1,0 +1,46 @@
+{
+    "ipsos_media_module_edd": {
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "inside": true,
+                "logfile": ".\\logs\\ipsos_media_module_edd_logfile.txt",
+                "modulename": "ipsos_media_module_edd",
+                "questionshortcut": "MainSurvey",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_edd.qex",
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "logfile": ".\\logs\\ipsos_media_module_edd_logfile.txt",
+                "modulename": "ipsos_media_module_edd",
+                "questionshortcut": "ipsos_media_module_edd",
+                "saveas": "SID.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_edd.qex",
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true
+            }
+        ],
+        "Functionality Group": "EmoDeepDive",
+        "Languages": [
+            "en-gb"
+        ],
+        "Resources": [
+            {
+                "Name": "IIS_CategoricalClickImages.adc",
+                "Version": "1.0.0"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            }
+        ],
+        "Version": "1.0.7",
+        "dependencies": [],
+        "hidden": false,
+        "merge order": 0,
+        "qex name": "ipsos_media_module_edd"
+    }
+}
