@@ -1,0 +1,10 @@
+{
+  "variables": [
+		{ 
+			"key": "reportingtype", 
+			"value": {
+				"en-GB": "FRM"
+			}
+		}
+	]
+}
