@@ -1,0 +1,22 @@
+{
+  "variables": [
+    {
+		"key": "HoneyPot",
+		"value": {
+			"en-US": 1
+		}
+	},
+	{
+		"key": "MultipleDimensions",
+		"value": {
+			"en-US": 1
+		}
+	},
+	{
+		"key": "MultipleFlags",
+		"value": {
+			"en-US": 1
+		}
+	}	
+  ]
+}
