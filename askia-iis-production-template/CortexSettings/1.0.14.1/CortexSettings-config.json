@@ -1,0 +1,52 @@
+{
+    "CortexSettings": {
+        "dependencies": ["RespondentGeneralSettingsAndInfo"],
+        "qex name": "CortexSettings",
+        "merge order": 4,
+        "hidden": false,
+        "Functionality Group": "Cortex integration",
+        "Version": "1.0.14.1",
+        "Resources": [
+            {
+                "Name": "CortexRecodeApiVars.asx",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "CortexScreenersData.asx",
+                "Version": "1.0.2.1"
+            },
+            {
+                "Name": "IIS_Fish.adp",
+                "Version": "1.0.1"
+            },
+            {
+                "Name": "IIS_General.adc",
+                "Version": "1.0.1"
+            }
+        ],
+        "Askia Add parameters": [
+            {
+                "insertsurvey": true,
+                "surveypath": ".\\Modules\\CortexSettings.qex",
+                "questionshortcut": "Presurvey",
+                "modulename": "CortexSettings",
+                "inside": true,
+                "usedefaultwhenempty": true,
+                "logfile": ".\\logs\\CortexSettings_logfile.txt",
+                "saveas": "SID.qex"
+            }
+        ],
+        "Askia Update parameters": [
+            {
+                "updatesubsurvey": true,
+                "usedefaultwhenempty": true,
+                "modulename": "CortexSettings",
+                "surveypath": ".\\Modules\\CortexSettings.qex",
+                "questionshortcut": "CortexSettings",
+                "logfile": ".\\logs\\update_CortexSettings_logfile.txt",
+                "saveas": "SID.qex"
+            }
+        ],
+        "Languages": ["en-gb"]
+    }
+}
