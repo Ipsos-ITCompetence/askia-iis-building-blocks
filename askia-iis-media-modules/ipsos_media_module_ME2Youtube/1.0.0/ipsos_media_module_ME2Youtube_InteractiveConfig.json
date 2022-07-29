@@ -1,0 +1,25 @@
+{
+   "translationKeys":[
+      {
+         "key":"MediaSrc",
+         "translations":[
+            {
+               "language":"en-GB",
+               "text":"/deploy/resources/MediaModules/Youtube/demo/16pe9.mp4"
+            }
+         ]
+      },
+      {
+         "key":"DisplayURL",
+         "translations":[
+            {
+               "language":"en-GB",
+               "text":"http://www.displayurl.com"
+            }
+         ]
+      }
+   ],
+   "listOfResponsesKeys":[
+      
+   ]
+}

@@ -1,0 +1,88 @@
+{
+    "variables": [
+        {
+            "key": "ask_intro_hotzone",
+            "value": {
+                "en-GB": "yes"
+            }
+        },
+        {
+            "key": "filter_q2_hotzone",
+            "value": {
+                "en-GB": "yes"
+            }
+        },
+        {
+            "key": "ask_q3_hotzone",
+            "value": {
+                "en-GB": "yes"
+            }
+        },
+        {
+            "key": "q1_text_hotzone",
+            "value": {
+                "en-GB": "q1_text_hotzone"
+            }
+        },
+        {
+            "key": "q2_text_hotzone",
+            "value": {
+                "en-GB": "q2_text_hotzone"
+            }
+        },
+        {
+            "key": "q3_text_hotzone",
+            "value": {
+                "en-GB": "q3_text_hotzone"
+            }
+        },
+        {
+            "key": "use_watermark_hotzone",
+            "value": {
+                "en-GB": 1
+            }
+        },
+        {
+            "key": "qtype_why_seen_hotzone",
+            "value": {
+                "en-GB": 3
+            }
+        },
+        {
+            "key": "maxnrofzones_hotzone",
+            "value": {
+                "en-GB": 0
+            }
+        },
+		{
+            "key": "addNone",
+            "value": {
+                "en-GB": "Yes"
+            }
+        },
+        {
+            "key": "qtype_hotzone",
+            "value": {
+                "en-GB": 1
+            }
+        },
+        {
+            "key": "qselect_review_hotzone",
+            "value": {
+                "en-GB": 1
+            }
+        },
+        {
+            "key": "qtype_why_hotzone",
+            "value": {
+                "en-GB": 2
+            }
+        },
+        {
+            "key": "qselect_hotzone",
+            "value": {
+                "en-GB": 1
+            }
+        }
+    ]
+}

@@ -1,29 +1,30 @@
 {
-    "ipsos_media_module_swipe": {
+    "ipsos_media_module_ME2Youtube": {
         "Askia Add parameters": [
             {
+                "configurationFile": ".\\_INTERACTIVE_SURVEYS\\ipsos_media_module_ME2Youtube_InteractiveConfig.json",
                 "insertsurvey": true,
                 "inside": true,
-                "logfile": ".\\logs\\ipsos_media_module_swipe_logfile.txt",
-                "modulename": "ipsos_media_module_swipe",
+                "logfile": ".\\logs\\ipsos_media_module_ME2Youtube_logfile.txt",
+                "modulename": "ipsos_media_module_ME2Youtube",
                 "questionshortcut": "MainSurvey",
                 "saveas": "SID.qex",
-                "surveypath": ".\\Modules_media\\ipsos_media_module_swipe.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_ME2Youtube.qex",
                 "usedefaultwhenempty": true
             }
         ],
         "Askia Update parameters": [
             {
-                "logfile": ".\\logs\\ipsos_media_module_swipe_logfile.txt",
-                "modulename": "ipsos_media_module_swipe",
-                "questionshortcut": "ipsos_media_module_swipe",
+                "logfile": ".\\logs\\update_ipsos_media_module_ME2Youtube_logfile.txt",
+                "modulename": "ipsos_media_module_ME2Youtube",
+                "questionshortcut": "ipsos_media_module_ME2Youtube",
                 "saveas": "SID.qex",
-                "surveypath": ".\\Modules_media\\ipsos_media_module_swipe.qex",
+                "surveypath": ".\\Modules_media\\ipsos_media_module_ME2Youtube.qex",
                 "updatesubsurvey": true,
                 "usedefaultwhenempty": true
             }
         ],
-        "Functionality Group": "Swipe",
+        "Functionality Group": "",
         "Languages": [
             "en-gb"
         ],
@@ -37,18 +38,18 @@
                 "Version": "1.0.1"
             },
             {
-                "Name": "IIS_InformationReview.adc",
-                "Version": "1.0.0"
+                "Name": "IIS_General_grid.adc",
+                "Version": "1.0.1"
             },
             {
-                "Name": "ipsos_media_module_swipe.asx",
+                "Name": "IIS_Youtube.adc",
                 "Version": "1.0.0"
             }
         ],
-        "Version": "1.0.8",
+        "Version": "1.0.0",
         "dependencies": [],
         "hidden": false,
         "merge order": 0,
-        "qex name": "ipsos_media_module_swipe"
+        "qex name": "ipsos_media_module_ME2Youtube"
     }
 }
